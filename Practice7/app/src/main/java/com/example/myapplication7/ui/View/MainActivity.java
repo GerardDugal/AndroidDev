@@ -58,4 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void AddElement(View view) {
+        if (view.getId() == R.id.button)
+        {
+            listView.setAdapter(viewModel.updateAdapter(this));
+        }
+    }
 }

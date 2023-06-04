@@ -10,7 +10,6 @@ import android.widget.TextView;
 import com.example.myapplication7.R;
 import com.example.myapplication7.data.MyObject;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MyListAdapter extends ArrayAdapter<MyObject> {
